@@ -2,8 +2,6 @@
 
 This project focuses on classifying brain tumors using Convolutional Neural Networks (CNNs) built with TensorFlow. It also integrates **Grad-CAM (Gradient-weighted Class Activation Mapping)** to provide explainability by highlighting regions of an MRI image that the model considers important for classification.  
 
----
-
 ## Project Overview  
 
 Brain tumor detection is critical for early diagnosis and treatment. This project automates the detection process by classifying MRI scans into four categories:  
@@ -17,8 +15,6 @@ The pipeline includes:
 - **Model Training:** A CNN is trained to classify the tumor type.  
 - **Explainability:** Grad-CAM is used to visualize key regions influencing predictions.  
 
----
-
 ## Results  
 
 ### Accuracy  
@@ -31,8 +27,6 @@ Grad-CAM was implemented to visualize model decisions. The highlighted regions s
 
 Example visualization:  
 ![Grad-CAM Example](https://github.com/user-attachments/assets/4f46ab2c-6a75-4516-8e48-504a0b8c4d95)
-
----
 
 ## License  
 
